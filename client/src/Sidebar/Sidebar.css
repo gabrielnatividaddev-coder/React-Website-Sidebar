@@ -1,0 +1,36 @@
+.sidebarmain{
+ width: 300px;  
+ height: 100vh;
+ padding:16px;
+ border-right: 1px solid #dee2e6;
+}
+.setimage{
+    border-radius: 50%;
+}
+.leftsidediv{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    gap: 8px;
+}
+.sevenitems {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    text-decoration: none;
+    color: #495057;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    
+}
+.item:focus-within {
+    color: #228be6;
+    background-color: #228be61a;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

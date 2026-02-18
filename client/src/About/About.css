@@ -1,0 +1,13 @@
+.aboutinner{
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 5px;
+}
+.aboutdiv {
+  width: 80%;  
+}
+.outerdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
