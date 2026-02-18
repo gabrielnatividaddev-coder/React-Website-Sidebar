@@ -1,6 +1,6 @@
 # React-Website-Sidebar
 
-This is an example on how to implement a sidebar in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework. 
+This is an example on how to implement a Sidebar in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework. 
 
 To run application locally go to 
 **Root Folder**
