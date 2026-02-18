@@ -9,6 +9,10 @@ import Home from './Home/Home.js'
 import Footer from './Footer/footer.component.jsx';
 import About from './About/About.js';
 import Contact from './Contact/Contact.js';
+import Firstlink from './Firstlink/Firstlink.js';
+import Secondlink from './Secondlink/Secondlink.js';
+import Thirdlink from './Thirdlink/Thirdlink.js';
+import Fourthlink from './Fourthlink/Fourthlink.js';
 
 class App extends React.Component {
   render(){
@@ -19,10 +23,10 @@ class App extends React.Component {
             <Route exact path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
-            <Route exact path='/link1' element={'Link 1'} />
-            <Route exact path='/link2' element={'Link 2'} />
-            <Route exact path='/link3' element={'Link 3'} />
-            <Route exact path='/link4' element={'link 4'} />
+            <Route exact path='/link1' element={<Firstlink/>} />
+            <Route exact path='/link2' element={<Secondlink/>} />
+            <Route exact path='/link3' element={<Thirdlink/>} />
+            <Route exact path='/link4' element={<Fourthlink/>} />
       </Routes >
       </div>
       <Footer/>

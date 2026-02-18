@@ -1,0 +1,11 @@
+.inner {
+    text-align: center;
+}
+.outerdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.innerdiv{
+    width: 80%;
+}
