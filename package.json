@@ -1,6 +1,10 @@
 {
     "name": "react-website-sidebar",
     "version": "1.0.0",
+    "engines": {
+        "node": "v24.13.1",
+        "npm": "11.8.0"
+    },
     "scripts": {
         "client": "cd client && yarn start",
         "server": "nodemon server.js",
